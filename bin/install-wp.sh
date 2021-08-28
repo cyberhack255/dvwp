@@ -4,9 +4,9 @@
 wp core install \
   --title="Damn Vulnerable WordPress" \
   --admin_user="admin" \
-  --admin_password="admin" \
+  --admin_password="Password@1" \
   --admin_email="admin@example.com" \
-  --url="http://127.0.0.1:31337/" \
+  --url="http://192.168.1.21:31337/" \
   --skip-email
 
 # Update permalink structure.
